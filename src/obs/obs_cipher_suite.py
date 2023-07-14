@@ -4,10 +4,10 @@ import hashlib
 import os
 import secrets
 
-from Crypto.Cipher import AES, PKCS1_OAEP
-from Crypto.PublicKey import RSA
-from Crypto.Util import Counter
-from Crypto.Util.number import bytes_to_long
+from Cryptotome.Cipher import AES, PKCS1_OAEP
+from Cryptodome.PublicKey import RSA
+from Cryptodome.Util import Counter
+from Cryptodome.Util.number import bytes_to_long
 
 from obs import const, util
 
