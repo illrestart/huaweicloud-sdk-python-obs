@@ -4,7 +4,7 @@ import hashlib
 import os
 import secrets
 
-from Cryptotome.Cipher import AES, PKCS1_OAEP
+from Cryptodome.Cipher import AES, PKCS1_OAEP
 from Cryptodome.PublicKey import RSA
 from Cryptodome.Util import Counter
 from Cryptodome.Util.number import bytes_to_long
